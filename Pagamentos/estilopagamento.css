@@ -1,0 +1,85 @@
+#conteudo{
+    display: flexbox;
+    background-color: #EEF2F3;
+    height: 1000px;
+    
+}
+.nacionalidade{
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: 10px;
+}
+#dadoscadastrais{
+    border:2px solid #DCDCDC;
+    width: 450px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #808080;
+}
+.titulo{
+    background-color:#C0C0C0;
+    height: 60px;
+    width: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: -20px;
+}
+#logo{
+    display: flexbox;
+    flex-direction: row;
+    padding-left: 70px;
+    padding-top: 20px;
+    align-items: center;
+}
+#logo, img{
+    height: 20px;
+    
+    
+
+}
+#pagamento{
+    border: solid #DCDCDC 2px;
+    height: 400px;
+    width: 410px;
+    margin-left: 600px;
+    margin-top: -250px;
+    padding-left: 20px;
+    
+}
+#dadoscartao{
+    padding-top: 15px;
+    margin-left: 40px;
+    
+
+}
+.datacard{
+    width: 300px;
+}
+.labelcvv{
+    margin-left: 40px;
+    
+}
+.codcard{
+    width: 150px;
+    margin-left: 150px;
+}
+#finalizarcompra{
+    color: white;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;   
+    background-color: #00FF00;
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+#finalizarcompra:hover{
+    transition: 0,2s;
+    background-color: #228B22;
+}

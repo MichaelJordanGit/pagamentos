@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="estilopagamento.css" type="text/css">
+</head>
+<body>
+    <div id="conteudo">
+    
+    <div id="dadoscadastrais">
+    <div class="titulo">
+        <h2> 1 - Dados Cadastrais</h2> 
+    </div>
+
+    <div class="nacionalidade">
+        <input  type="radio" name="dadoscadastrais" value="brasileiro"> Brasileiro
+        <input  type="radio" name="dadoscadastrais" value="estrangeiro"> Estrangeiro
+    </div>        
+            <br>
+            <br>
+        <Label>Nome Completo</Label> <br>
+        <input type="text" name="nome" id="nomecompleto" placeholder="Digite seu nome completo"> <br>
+        <label>E-Mail</label> <br>
+        <input type="email" name="email" id="emailcliente" placeholder="Digite seu E-Mail"> <br>
+        <label>Celular com DDD</label> <br> 
+        <input type="number" name="celddd" placeholder="Digite seu numero"> 
+        <label>CPF/CNPJ</label> 
+        <input type="text" name="cpfcnpj" placeholder="Digite seu CPF ou CNPJ">
+    </div>
+
+    <div id="pagamento">
+       <div class="titulo">
+        <h2>2 - Pagamento</h2>
+    </div>
+        <div id="logo">
+            <img src="imagens/logovisa.png" alt="">
+            <img src="imagens/logomaster.png" alt="">
+            <img src="imagens/logohipercard.png" alt="">
+            <img src="imagens/logoelo.png" alt="">
+            <img src="imagens/logodiner.png" alt="">
+            <img src="imagens/logoamerican.png" alt="">
+            <img src="imagens/logoboleto.png" alt="">
+        </div>
+        <div id="dadoscartao">
+            <label>Numero do Cartão</label> <br>
+            <input class="datacard" type="text" name="numcartao" placeholder="Digite aqui o numero do seu cartão"> <br>
+            <label>Seu nome impresso no cartão</label> <br> 
+            <input class="datacard" type="text" name="nomeimpresso" placeholder="Digite seu nome impresso no cartão"> <br>
+            <label>Validade</label> <br> 
+                <select class="month" name="mes">
+                    <option value="">Jan</option>
+                    <option value="">Fev</option>
+                    <option value="">Mar</option>
+                    <option value="">Abr</option>
+                    <option value="">Mai</option>
+                    <option value="">Jun</option>
+                    <option value="">Jul</option>
+                    <option value="">Ago</option>
+                    <option value="">Set</option>
+                    <option value="">Out</option>
+                    <option value="">Nov</option>
+                    <option value="">Dez</option>
+                </select>
+                <select class="year" name="ano">
+                    <option>2024</option>
+                    <option>2025</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                    <option>2028</option>
+                    <option>2029</option>
+                    <option>2030</option>
+                    <option>2031</option>
+                    <option>2032</option>
+                    <option>2033</option>
+                    <option>2034</option>
+                    
+                </select>
+                        
+            <label class="labelcvv" >CVV/Cod. Segurança </label>
+            <input class="codcard" type="text" name="cvvcodseg" placeholder="CVV ou Codigo de Segurança"> <br>
+            <label>Parcelamento</label> <br>
+            <select name="parcelamento">
+                <option value="">1x</option>
+                <option value="">2x</option>
+                <option value="">3x</option>
+                <option value="">4x</option>
+                <option value="">5x</option>
+                <option value="">6x</option>
+                <option value="">7x</option>
+                <option value="">8x</option>
+                <option value="">9x</option>
+                <option value="">10x</option>
+            </select>
+            <br>
+            <input type="submit" name="comprar" value="Finalizar Compra" id="finalizarcompra">
+        </div>
+    </div>
+
+
+
+
+</div>
+</body>
+</html>
